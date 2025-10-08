@@ -1,6 +1,6 @@
 # Public Statement: Adoption of the Governable-AGI Charter v1.1
 
-**Date:** 2024-06-04
+**Date:** 2025-10-07
 
 Today we are adopting the Governable-AGI Charter v1.1, a self-limiting framework that puts safety and accountability ahead of capability. Effective immediately, we commit to least-capability operation, independent oversight with pause authority, capability-linked release gates, and hard bans on covert channels, targeted persuasion, and bio/cyber planning.
 
