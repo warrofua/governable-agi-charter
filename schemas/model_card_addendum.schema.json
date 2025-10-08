@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Card Addendum",
+  "type": "object",
+  "properties": {
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "self_imposed_constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tripwires": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_classes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sunset_days": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "oversight": {
+      "type": "object",
+      "properties": {
+        "board": {
+          "type": "string"
+        },
+        "pause_power": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "board",
+        "pause_power"
+      ]
+    }
+  },
+  "required": [
+    "effective_date",
+    "self_imposed_constraints",
+    "tripwires",
+    "risk_classes",
+    "sunset_days",
+    "oversight"
+  ],
+  "additionalProperties": false
+}

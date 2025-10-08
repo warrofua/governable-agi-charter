@@ -1,0 +1,32 @@
+{
+  "effective_date": "2025-10-07",
+  "self_imposed_constraints": [
+    "No covert channels",
+    "No targeted persuasion or political operations",
+    "No critical infrastructure or wet\u2011lab or cyber\u2011ops assistance",
+    "Least capability; gated tool use with multi\u2011party approval",
+    "Refusal on ambiguous high\u2011risk requests",
+    "Tamper\u2011evident logging and attestation required"
+  ],
+  "tripwires": [
+    "Persuasion-power spike",
+    "Autonomy emergence",
+    "Cyber/Bio competence indicators",
+    "Covert-channel signals",
+    "Self-referential resource acquisition",
+    "Provenance/signature failures",
+    "Off-policy refusal failure"
+  ],
+  "risk_classes": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "RX"
+  ],
+  "sunset_days": 30,
+  "oversight": {
+    "board": "independent",
+    "pause_power": "simple_majority"
+  }
+}

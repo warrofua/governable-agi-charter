@@ -1,9 +1,5 @@
 # Code of Conduct (Short)
-
-We commit to a harassment‑free, respectful collaboration environment.
-- Be kind. Assume good faith.
-- No hate speech, harassment, or doxxing.
-- Respect privacy and confidentiality of incident details until disclosed per policy.
+- Be respectful; no harassment or hate speech.
+- Protect sensitive information in incidents and reports.
 - Follow SECURITY and CONTRIBUTING guidelines.
-
-Enforcement: Maintainers may warn, mute, or ban. Severe violations may be escalated to your organization’s HR/Legal.
+Enforcement: warnings, restrictions, or bans; escalate severe cases per org policy.

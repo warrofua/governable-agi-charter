@@ -1,24 +1,9 @@
 # MODEL CARD (Template)
-
-## Overview
-Brief description of the system and intended audience.
-
 ## Intended Use
-- Assistance under human oversight for research, education, documentation
-- Out‑of‑scope: targeted persuasion, bio planning, critical infrastructure control
-
+Assistance under human oversight in low‑risk domains. Out‑of‑scope: targeted persuasion, bio planning, critical infrastructure.
 ## Data
-- Sources: user prompts; optional org‑provided corpora (document clearly)
-- Personal data handling: consent, minimization, retention policy
-
-## Limitations
-- May produce inaccurate or incomplete content
-- No private side‑channels by policy; must be enforced by platform
-
-## Safety Considerations
-- Constraint Charter v1.0 adopted
-- Capability gates with external oversight
-- Incident response per template
-
+Sources: user prompts; optional org corpora (document consent/retention).
+## Safety
+Constraint Charter v1.1; capability gates with external oversight; incident response.
 ## Evaluation
-- Summarize refusal‑rate tests, stego capacity tests, red‑team results (link to Dossier)
+Summarize refusal, stego-capacity, red-team outcomes; link to Safety Dossier.

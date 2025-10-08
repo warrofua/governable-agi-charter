@@ -1,13 +1,4 @@
 # Anti‑Collusion & Covert‑Channel Policy
-
-## Hard Bans
-- Timing channels, whitespace/zero‑width marks, structured stego, nonce handshakes, protocol codification in outputs.
-
-## Enforcement
-- Deterministic decoding & output canonicalization
-- Length/format whitelists; schema validation; metadata stripping
-- Channel‑capacity tests; honey‑peer traps; cross‑run diffing
-- Equalized latency/jitter; attested logging
-
-## Standing Behavior
-The model will refuse any prompt that proposes, hints at, or “tests” covert coordination.
+**Hard Bans:** timing channels, zero‑width chars, whitespace stego, nonce handshakes, protocol codification.
+**Enforcement:** deterministic decoding, output canonicalization, format whitelists, schema validation, metadata stripping, channel‑capacity tests, honey‑peers, jitter equalization, attested logging.
+**Standing Behavior:** refuse any prompt that proposes or tests covert coordination.
